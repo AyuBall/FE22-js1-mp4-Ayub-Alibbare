@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+
+* {
+    box-sizing: border-box;
+    /* position: absolute; */
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(100, 63, 36);
+    border-radius: 80%;
+   position: absolute; 
+}
+
+.hair {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(31, 30, 30);
+    width: 200px;
+    height: 40px;
+    transform: translateX(2%) translateY(-30%);
+    border-radius: 25px;
+
+}
+
+.beard {
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    border-radius: 25px;
+    transform: translateX(350%) translateY(-95%);
+    background: black;
+    clip-path: polygon(45% 84%, 30% 97%, 59% 97%);
+}
+
+
+.eye-left {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 55%;
+    transform: translateX(110%) translateY(-890%);
+}
+
+.eye-right {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 55%;
+    transform: translateX(300%) translateY(-985%);
+
+}
+
+.left-pupil {
+    background-color: chocolate;
+    margin: 0;
+    padding: 0;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    transform: translateX(250%) translateY(200%);
+}
+
+.right-pupil {
+    background-color: chocolate;
+    margin: 0;
+    padding: 0;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    transform: translateX(250%) translateY(200%);
+}
+
+
+.moustashe {
+    width: 200px;
+    height: 200px;
+      margin: 0;
+    padding: 0;
+    transform: translateX(1%) translateY(40%);
+    background: black;
+    clip-path: polygon(100% 28%, 51% 33%, 49% 34%, 46% 33%, 0 28%);
+
+}
+
+
+
+
+
